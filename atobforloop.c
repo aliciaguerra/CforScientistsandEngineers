@@ -10,7 +10,7 @@ del_x=(b-a)/(double)n_end;
 for(i=0; i<=n_end; i++){
   x=a+(double)i * del_x;
   f=1.+ x*x;
-  printf("i=%3d\t x=%6.2f \t f=%12/6e\n", i, x, f);
+  printf("i=%3d\t x=%6.2f \t f=%12/6e\n", i, x);
 }
 exit(0);
 }
